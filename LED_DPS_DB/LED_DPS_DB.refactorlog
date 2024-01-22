@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="928acb46-478d-4b7f-947f-f9d08c397359" ChangeDateTime="03/13/2023 12:08:41">
+    <Property Name="ElementName" Value="[dbo].[Modelo_DPS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Modelo_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_modelo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fb261e65-0932-43bb-81d0-b469dcec0583" ChangeDateTime="03/13/2023 12:21:11">
+    <Property Name="ElementName" Value="[dbo].[CKD_DPS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CKD_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="modelo_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e4b0c39-0262-4983-ac64-ba5d2826aecb" ChangeDateTime="03/13/2023 13:19:24">
+    <Property Name="ElementName" Value="[dbo].[CKD_DPS].[CKD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CKD_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f0dbeb2c-5497-453a-b4c2-8416b6f4ef2b" ChangeDateTime="03/13/2023 13:20:34">
+    <Property Name="ElementName" Value="[dbo].[CKD_DPS].[Id_]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CKD_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_CKD_PK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="79283fa7-e56f-4aa6-bd3b-2caca2fa348e" ChangeDateTime="03/13/2023 13:24:15">
+    <Property Name="ElementName" Value="[dbo].[Modelo_DPS].[Id_modelo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Modelo_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_modelo_PK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac5a8a07-efb6-49d9-a141-e1a34215da84" ChangeDateTime="03/13/2023 13:24:37">
+    <Property Name="ElementName" Value="[dbo].[CKD_DPS].[modelo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CKD_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="modelo_id_fk" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e338c5eb-c0ff-4ec5-bf47-cc56de2cd6ab" ChangeDateTime="03/13/2023 13:30:50">
+    <Property Name="ElementName" Value="[dbo].[Causa_Downtime_DPS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Causa_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_dowtime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ee159ea2-6f83-4f0e-a82a-3274341eaefd" ChangeDateTime="03/13/2023 13:31:05">
+    <Property Name="ElementName" Value="[dbo].[Causa_Downtime_DPS].[Id_dowtime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Causa_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bbb107ee-51b2-4a08-83de-4f0db43591a2" ChangeDateTime="03/13/2023 13:32:53">
+    <Property Name="ElementName" Value="[dbo].[C_Downtime_DPS].[date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[C_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="dat" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="68c35f1f-15c5-460a-9421-2df7b5dbd1f8" ChangeDateTime="03/13/2023 13:33:33">
+    <Property Name="ElementName" Value="[dbo].[C_Downtime_DPS].[dat]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[C_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="data_hora" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="71f5db30-ead5-4991-bd57-1b79f90e72d9" ChangeDateTime="03/13/2023 13:35:51">
+    <Property Name="ElementName" Value="[dbo].[C_Downtime_DPS].[a]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[C_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="linha" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="df74a74d-0604-4733-b531-e99583f6b177" ChangeDateTime="03/13/2023 14:01:06">
+    <Property Name="ElementName" Value="[dbo].[Causa_Downtime_DPS].[tipo_categoria]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Causa_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_downtime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="000a2195-8cfa-4002-a6a7-44b3a773322f" ChangeDateTime="03/13/2023 15:55:11">
+    <Property Name="ElementName" Value="[dbo].[SN_DPS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SN_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="sn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ae29a3d-19c1-4044-8fa1-2a32a97db77e" ChangeDateTime="03/15/2023 20:21:29">
+    <Property Name="ElementName" Value="[dbo].[SN_DPS].[id_ckd]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SN_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_ckd_fk" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="52a552b5-2167-4aaf-8a7d-7904cef5c01b" ChangeDateTime="03/15/2023 20:21:36">
+    <Property Name="ElementName" Value="[dbo].[CKD_DPS].[CKD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CKD_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CKD_PK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="799533bf-90ef-4c97-8424-9a3c03ed12f4" ChangeDateTime="03/15/2023 20:21:44">
+    <Property Name="ElementName" Value="[dbo].[Embalagem].[id_ckd]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Embalagem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ckd_fk" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5d98b1a0-854d-424d-8394-bf5a36d4bbbc" ChangeDateTime="03/16/2023 11:20:27">
+    <Property Name="ElementName" Value="[dbo].[FK_CKD_DPS_ToMODELO_]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[CKD_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_CKD_DPS_ToMODELO]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b6527c45-6c5f-4866-be53-5a62857999fb" ChangeDateTime="03/16/2023 11:50:20">
+    <Property Name="ElementName" Value="[dbo].[FK_Embalagem_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Embalagem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Embalagem_ToMODELO]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6df7672f-5393-48cd-8f5c-dd6501b6b82f" ChangeDateTime="03/16/2023 16:27:18">
+    <Property Name="ElementName" Value="[dbo].[C_Downtime_DPS].[duracao]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[C_Downtime_DPS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="discracao" />
+  </Operation>
+</Operations>

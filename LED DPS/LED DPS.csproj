@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>LED_DPS</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>95ba894598867c9932e5c4f64d585e9e3e6b998e31b15832cca52669783d9c01-removebg-preview.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Class\Model\ticgvcmd.kko~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="95ba894598867c9932e5c4f64d585e9e3e6b998e31b15832cca52669783d9c01-removebg-preview.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Class\API_Link\" />
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="ZXing.Net" Version="0.16.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\DataGridViewMini.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJCircularPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\RJDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJDataGridViewBig.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJDatePicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\RJDragControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJDropdownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJImageColorOverlay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJMenuButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJMenuIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\RJToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RJtxt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Settings\UIAppearanceSettings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>UIAppearanceSettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings\UIAppearanceSettings.settings">
+      <LastGenOutput>UIAppearanceSettings.Designer.cs</LastGenOutput>
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
